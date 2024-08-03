@@ -123,6 +123,8 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.16.1, < 2)
       sassc-rails (>= 2.0.0)
+    bugsnag (6.27.1)
+      concurrent-ruby (~> 1.0)
     builder (3.3.0)
     cancancan (3.6.1)
     canonical-rails (0.2.15)
@@ -547,6 +549,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  bugsnag (~> 6.27)
   capybara
   debug
   image_processing (~> 1.13)
